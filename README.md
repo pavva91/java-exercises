@@ -9,5 +9,5 @@ javac Main.java
 ## Run
 
 ```bash
-java Main
+java Main 2 3
 ```

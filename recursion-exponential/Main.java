@@ -13,11 +13,12 @@ public class Main {
             return 1;
         }
 
-        if (exponent == 1) {
-            return base;
-        }
+        // NOTE: Is useless
+        // if (exponent == 1) {
+        // return base;
+        // }
 
         return base * exponential(base, exponent - 1);
     }
-    
+
 }
